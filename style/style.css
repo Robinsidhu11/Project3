@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: url(./backgroundimage.png);
+    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: round;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFC233;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 65px;
+}
+nav ul li{
+    font-weight: 400;
+}
+nav ul li a:hover{
+    font-weight: 500;
+}
+nav button, div button{
+    color: white;
+    background-color: #FF515F;
+    padding: 5px 15px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.main{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main h1{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color: #FFC233;
+    font-weight: bolder;
+    font-size: 80px;
+    
+}
+nav button {
+    font-weight: 900;
+    letter-spacing: 1px;
+    /* line-height: normal; */
+    font-size: 16px;
+    height: 40px;
+    width: 110px;
+}
+div button{
+    width: 250px;
+    height: 70px;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 40px;
+}
+.footer{
+    align-self: flex-end;
+    margin-right: 57px;
+    margin-bottom: 28px;
+   
+}
+.footer img{
+    width:150px;
+}
+.footer img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    cursor: pointer;
+}
